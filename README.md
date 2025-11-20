@@ -59,17 +59,20 @@ This project combines Elm for UI and domain logic with Node.js for tooling and a
 ## 📂 Project Structure
 
 project/
-├── dist/               Compiled JS build output
-├── elm-stuff/          Elm build artifacts
-├── logs/               App logs
-├── node_modules/       NPM dependencies
-├── scripts/            Helper scripts
-├── src/                Elm source (Main/Model/View/Utils)
-├── tests/              Automated tests
-├── elm.json            Elm config
-├── package.json        Metadata & deps
-├── package-lock.json   Locked deps
-└── tsconfig.json       TypeScript config
+│
+├── dist/               # Compiled JavaScript files (build output)
+├── elm-stuff/          # Elm build artifacts (ignored in Git)
+├── logs/               # Runtime/application logs
+├── node_modules/       # NPM dependencies (ignored in Git)
+│
+├── scripts/            # Node/TS scripts for automation or processing
+├── src/                # Elm source code (Main, Model, View, Utils)
+├── tests/              # Automated test suite and test data
+│
+├── elm.json            # Elm compiler configuration
+├── package.json        # Project metadata and dependencies
+├── package-lock.json   # Locked dependency tree
+└── tsconfig.json       # TypeScript compiler configuration
 
 ---
 
