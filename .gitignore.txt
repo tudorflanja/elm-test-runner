@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Elm build artifacts
+elm-stuff/
+
+# Compiled output
+dist/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.cache
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# NPM debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

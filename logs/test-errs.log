@@ -1,0 +1,138 @@
+-- NAMING ERROR - C:\Users\Tudor\Desktop\Facultate\An3\FP\Project1\tests\PostsViewTests.elm
+
+I cannot find a `Posts.postsConfigView` variable:
+
+100|                     Posts.postsConfigView Config.defaultConfig
+                         ^^^^^^^^^^^^^^^^^^^^^
+The `Posts` module does not expose a `postsConfigView` variable. These names
+seem close though:
+
+    Posts.postRow
+    Posts.postTable
+    Basics.isInfinite
+    Data.posts
+
+Hint: Read <https://elm-lang.org/0.19.1/imports> to see how `import`
+declarations work in Elm.
+
+-- NAMING ERROR - C:\Users\Tudor\Desktop\Facultate\An3\FP\Project1\tests\PostsViewTests.elm
+
+I cannot find a `Posts.postsConfigView` variable:
+
+109|                     Posts.postsConfigView Config.defaultConfig
+                         ^^^^^^^^^^^^^^^^^^^^^
+The `Posts` module does not expose a `postsConfigView` variable. These names
+seem close though:
+
+    Posts.postRow
+    Posts.postTable
+    Basics.isInfinite
+    Data.posts
+
+Hint: Read <https://elm-lang.org/0.19.1/imports> to see how `import`
+declarations work in Elm.
+
+-- NAMING ERROR - C:\Users\Tudor\Desktop\Facultate\An3\FP\Project1\tests\PostsViewTests.elm
+
+I cannot find a `Posts.postsConfigView` variable:
+
+118|                     Posts.postsConfigView Config.defaultConfig
+                         ^^^^^^^^^^^^^^^^^^^^^
+The `Posts` module does not expose a `postsConfigView` variable. These names
+seem close though:
+
+    Posts.postRow
+    Posts.postTable
+    Basics.isInfinite
+    Data.posts
+
+Hint: Read <https://elm-lang.org/0.19.1/imports> to see how `import`
+declarations work in Elm.
+
+-- NAMING ERROR - C:\Users\Tudor\Desktop\Facultate\An3\FP\Project1\tests\PostsViewTests.elm
+
+I cannot find a `Posts.postsConfigView` variable:
+
+126|                     Posts.postsConfigView Config.defaultConfig
+                         ^^^^^^^^^^^^^^^^^^^^^
+The `Posts` module does not expose a `postsConfigView` variable. These names
+seem close though:
+
+    Posts.postRow
+    Posts.postTable
+    Basics.isInfinite
+    Data.posts
+
+Hint: Read <https://elm-lang.org/0.19.1/imports> to see how `import`
+declarations work in Elm.
+
+-- NAMING ERROR - C:\Users\Tudor\Desktop\Facultate\An3\FP\Project1\tests\PostsViewTests.elm
+
+I cannot find a `Posts.postsConfigView` variable:
+
+140|                     Posts.postsConfigView Config.defaultConfig
+                         ^^^^^^^^^^^^^^^^^^^^^
+The `Posts` module does not expose a `postsConfigView` variable. These names
+seem close though:
+
+    Posts.postRow
+    Posts.postTable
+    Basics.isInfinite
+    Data.posts
+
+Hint: Read <https://elm-lang.org/0.19.1/imports> to see how `import`
+declarations work in Elm.
+
+-- NAMING ERROR - C:\Users\Tudor\Desktop\Facultate\An3\FP\Project1\tests\PostsViewTests.elm
+
+I cannot find a `Posts.postsConfigView` variable:
+
+148|                     Posts.postsConfigView Config.defaultConfig
+                         ^^^^^^^^^^^^^^^^^^^^^
+The `Posts` module does not expose a `postsConfigView` variable. These names
+seem close though:
+
+    Posts.postRow
+    Posts.postTable
+    Basics.isInfinite
+    Data.posts
+
+Hint: Read <https://elm-lang.org/0.19.1/imports> to see how `import`
+declarations work in Elm.
+
+-- NAMING ERROR - C:\Users\Tudor\Desktop\Facultate\An3\FP\Project1\tests\PostsViewTests.elm
+
+I cannot find a `Posts.postsConfigView` variable:
+
+78|     Posts.postsConfigView Config.defaultConfig
+        ^^^^^^^^^^^^^^^^^^^^^
+The `Posts` module does not expose a `postsConfigView` variable. These names
+seem close though:
+
+    Posts.postRow
+    Posts.postTable
+    Basics.isInfinite
+    Data.posts
+
+Hint: Read <https://elm-lang.org/0.19.1/imports> to see how `import`
+declarations work in Elm.
+
+                                                           PostsViewTests  ↑    
+====o======================================================================o====
+    ↓  Main
+
+
+-- BAD IMPORT ---- C:\Users\Tudor\Desktop\Facultate\An3\FP\Project1\src\Main.elm
+
+The `View.Posts` module does not expose `postsConfigView`:
+
+12| import View.Posts exposing (postTable, postsConfigView)
+                                           ^^^^^^^^^^^^^^^
+These names seem close though:
+
+    postRow
+    a
+    maybeLink
+    postTable
+
+`elm make` failed with exit code 1.
