@@ -58,3 +58,115 @@ This project combines Elm for UI and domain logic with Node.js for tooling and a
 
 ## 📂 Project Structure
 
+project/
+├── dist/ # Compiled JavaScript files (build output)
+├── elm-stuff/ # Elm build artifacts (ignored in Git)
+├── logs/ # Runtime/application logs
+├── node_modules/ # NPM dependencies (ignored in Git)
+├── scripts/ # Node/TS scripts used for processing or automation
+├── src/ # Elm source code (Main, Model, View, Utils)
+├── tests/ # Automated test suite & test data
+├── elm.json # Elm compiler configuration
+├── package.json # Project metadata and dependencies
+├── package-lock.json # Locked dependency tree
+└── tsconfig.json # TypeScript compiler configuration
+
+---
+
+## ▶️ How to Run the Project
+
+### 1. Install Dependencies
+
+\`\`\`bash
+npm install
+\`\`\`
+
+### 2. Build the Project
+
+Compile Elm + TypeScript into dist/:
+
+\`\`\`bash
+npm run build
+\`\`\`
+
+### 3. Run Tests
+
+Use the test runner from the scripts or dist folder:
+
+\`\`\`bash
+npm test
+\`\`\`
+
+### 4. Run a Script Manually
+
+Example:
+
+\`\`\`bash
+node dist/run-tests.js
+\`\`\`
+
+or:
+
+\`\`\`bash
+node scripts/some-tool.js
+\`\`\`
+
+---
+
+## 🧪 Testing System
+
+The tests/ directory includes:
+
+- Test specifications for all functional requirements  
+- Dataset files used for verification  
+- Test-tree structures for navigating hierarchies  
+- Post decoding tests (PostIds, Post, PostsConfig)  
+- Cursor module tests (forward, back, fromList, toList, length)  
+- Sorting tests (score, title, date, unsorted)  
+- Filtering tests (job posts, text-only posts, post limits)  
+- Time formatting tests (formatDuration, durationBetween)
+
+These tests verify the entire Elm logic layer, ensuring correct implementation of all features.
+
+---
+
+## 🧩 Core Concepts Demonstrated
+
+- Functional Architecture (Elm Model–View–Update)  
+- JSON decoding for real-world APIs  
+- Human-readable time formatting with computed durations  
+- Cursor utilities for list navigation  
+- Sorting and filtering pipelines  
+- Elm composition patterns (pipelines, mapping, error handling)  
+- Clean coding style & descriptive naming  
+- Automated test-driven workflow  
+- Node.js as a development companion to Elm  
+
+---
+
+## 🔨 Build & Development Commands
+
+These can be added to your package.json if needed:
+
+\`\`\`json
+{
+  "scripts": {
+    "build": "elm make src/Main.elm --output=dist/main.js && tsc",
+    "test": "node dist/run-tests.js",
+    "start": "node dist/main.js"
+  }
+}
+\`\`\`
+
+---
+
+## 📝 Conclusion
+
+This project demonstrates a complete small-scale Elm application integrated with a modern Node.js toolchain. It combines:
+
+- clean functional architecture  
+- fully typed data models  
+- realistic UI rendering  
+- dynamic configuration controls  
+- data fetching, sorting, filtering, and formatting  
+- a thorough automated test suite  
