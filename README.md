@@ -77,39 +77,39 @@ project/
 
 ### 1. Install Dependencies
 
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ### 2. Build the Project
 
 Compile Elm + TypeScript into dist/:
 
-\`\`\`bash
+```bash
 npm run build
-\`\`\`
+```
 
 ### 3. Run Tests
 
 Use the test runner from the scripts or dist folder:
 
-\`\`\`bash
+```bash
 npm test
-\`\`\`
+```
 
 ### 4. Run a Script Manually
 
 Example:
 
-\`\`\`bash
+```bash
 node dist/run-tests.js
-\`\`\`
+```
 
 or:
 
-\`\`\`bash
+```bash
 node scripts/some-tool.js
-\`\`\`
+```
 
 ---
 
@@ -117,13 +117,13 @@ node scripts/some-tool.js
 
 The tests/ directory includes:
 
-- Test specifications for all functional requirements  
-- Dataset files used for verification  
-- Test-tree structures for navigating hierarchies  
-- Post decoding tests (PostIds, Post, PostsConfig)  
-- Cursor module tests (forward, back, fromList, toList, length)  
-- Sorting tests (score, title, date, unsorted)  
-- Filtering tests (job posts, text-only posts, post limits)  
+- Test specifications for all functional requirements
+- Dataset files used for verification
+- Test-tree structures for navigating hierarchies
+- Post decoding tests (PostIds, Post, PostsConfig)
+- Cursor module tests (forward, back, fromList, toList, length)
+- Sorting tests (score, title, date, unsorted)
+- Filtering tests (job posts, text-only posts, post limits)
 - Time formatting tests (formatDuration, durationBetween)
 
 These tests verify the entire Elm logic layer, ensuring correct implementation of all features.
@@ -132,15 +132,15 @@ These tests verify the entire Elm logic layer, ensuring correct implementation o
 
 ## 🧩 Core Concepts Demonstrated
 
-- Functional Architecture (Elm Model–View–Update)  
-- JSON decoding for real-world APIs  
-- Human-readable time formatting with computed durations  
-- Cursor utilities for list navigation  
-- Sorting and filtering pipelines  
-- Elm composition patterns (pipelines, mapping, error handling)  
-- Clean coding style & descriptive naming  
-- Automated test-driven workflow  
-- Node.js as a development companion to Elm  
+- Functional Architecture (Elm Model–View–Update)
+- JSON decoding for real-world APIs
+- Human-readable time formatting with computed durations
+- Cursor utilities for list navigation
+- Sorting and filtering pipelines
+- Elm composition patterns (pipelines, mapping, error handling)
+- Clean coding style & descriptive naming
+- Automated test-driven workflow
+- Node.js as a development companion to Elm
 
 ---
 
@@ -148,7 +148,7 @@ These tests verify the entire Elm logic layer, ensuring correct implementation o
 
 These can be added to your package.json if needed:
 
-\`\`\`json
+```json
 {
   "scripts": {
     "build": "elm make src/Main.elm --output=dist/main.js && tsc",
@@ -156,7 +156,7 @@ These can be added to your package.json if needed:
     "start": "node dist/main.js"
   }
 }
-\`\`\`
+```
 
 ---
 
@@ -164,9 +164,9 @@ These can be added to your package.json if needed:
 
 This project demonstrates a complete small-scale Elm application integrated with a modern Node.js toolchain. It combines:
 
-- clean functional architecture  
-- fully typed data models  
-- realistic UI rendering  
-- dynamic configuration controls  
-- data fetching, sorting, filtering, and formatting  
-- a thorough automated test suite  
+- clean functional architecture
+- fully typed data models
+- realistic UI rendering
+- dynamic configuration controls
+- data fetching, sorting, filtering, and formatting
+- a thorough automated test suite
