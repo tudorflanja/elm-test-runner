@@ -174,5 +174,4 @@ This project demonstrates a complete small-scale Elm application integrated with
 
 ---
 
-This project was completed as part of my studies at the Technical University of Cluj-Napoca (UTCN) 🎓.
-
+This project was completed for the Functional Programming course, as part of my studies at the Technical University of Cluj-Napoca (UTCN) 🎓.
